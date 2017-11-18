@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="container">
+		<p>番茄炒蛋牌</p>
+		<input type="text" class="screen" id="screenName" disabled="disabled" value="0" name="val">
+		<div class="keyboard">
+			<button id="board reminder" onclick="operaterin(this)">%</button>
+			<button id="board sqrt" onclick="pinf(this)" name="root">√</button>
+			<button id="board square" onclick="pinf(this)">x²</button>
+			<button id="board 1x" onclick="pinf(this)" name="upDowm">1/x</button>
+			<button id="board deleteCE" style="clear: left;" onclick="clearOne(this)" name="CE">CE</button>
+			<button id="board deleteC" onclick="clearAll(this)" name="C">C</button>
+			<button id="board delete3" onclick="adelete(this)" name="back">←</button>
+			<button id="board division" onclick="operaterin(this)" name="div">÷</button>
+			<button id="board1 key1" style="clear: left;" onclick="number(this)">1</button>
+			<button id="board1 key2" onclick="number(this)" name="two">2</button>
+			<button id="board1 key3" onclick="number(this)" name="three">3</button>
+			<button id="board multiply" onclick="operaterin(this)" name="multi">×</button>
+			<button id="board1 key4" style="clear: left;" onclick="number(this)">4</button>
+			<button id="board1 key5" onclick="number(this)" name="five">5</button>
+			<button id="board1 key6" onclick="number(this)" name="six">6</button>
+			<button id="board plus" onclick="operaterin(this)" name="plus">+</button>
+			<button id="board1 key7" style="clear: left;" onclick="number(this)" name="seven">7</button>	
+			<button id="board1 key8" onclick="number(this)" name="eight">8</button>
+			<button id="board1 key9" onclick="number(this)" name="nine">9</button>
+			<button id="board minus" onclick="operaterin(this)" name="minus">-</button>
+			<button id="board negative" style="clear: left;" onclick="negative(this)" name="oppo">±</button>
+			<button id="board1 key0" onclick="number(this)" name="zero">0</button>
+			<button id="board dot" onclick="number(this)" name="dot">.</button>
+			<button id="board equal" onclick="equalin(this)" name="equal">=</button>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
