@@ -68,7 +68,7 @@ function operaterin(obj){
 	
 	if(pointer==1){
 		operater=obj.innerHTML;
-		pointer=2;
+		//pointer=2;
 		//防止第二次小数点用不了
 
 	}
